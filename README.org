@@ -1,0 +1,32 @@
+#+TITLE: Problem Set for Uchi Komi Repos
+
+* Introduction
+In order to prevent the uchikomi problems being duplicated across all of the
+different uchikomi language repos, the problem set has been extracted out
+into its own repo. This means a new problem only has to be added to this
+repo rather than across all of the different uchikomi language implementations.
+
+This repo will explain how the uchikomi language repos are structured.
+it will also contain all the problem set descriptions to be implemented in
+each uchi komi language repo.
+
+* Gokyo
+
+Each repo has a docs folder that breaks up aspects of the language into five
+sets. These are detailed below
+
+- [[file:doc/ikkyo.org][Dai-ikkyo]] - Settng up the environment
+- [[file:doc/nikyo.org][Dai-nikyo]] - Testing
+- [[file:doc/sankyo.org][Dai-sankyo]] - Resources / Cheat Sheets
+- [[file:doc/yonkyo.org][Dai-yonkyo]] - Workflows
+- [[file:doc/gokyo.org][Dai-gokyo]] - Documentation
+
+* Problems
+
+There is a problem folder and there are additional folders underneath the 
+problems folder for different types of problem or different websites that
+host problems.
+
+The euler problems are from [[https://projecteuler.net/][Project Euler]].
+The rq problems are from the [[http://rubyquiz.com/index.html][Ruby Quiz]] site.
+The alg folder has problems surrounding common algorithms such as binary search.

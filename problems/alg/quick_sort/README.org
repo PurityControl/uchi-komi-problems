@@ -1,0 +1,59 @@
+#+TILE: Quick Sort
+
+* Problem Description
+
+Quicksort is a divide and conquer algorithm. Quicksort first divides a large
+array into two smaller sub-arrays: the low elements and the high elements.
+Quicksort can then recursively sort the sub-arrays.
+
+The steps are:
+
+- Pick an element, called a pivot, from the array.
+- Reorder the array so that all elements with values less than the pivot come
+  before the pivot, while all elements with values greater than the pivot come
+  after it (equal values can go either way). After this partitioning, the pivot
+  is in its final position. This is called the partition operation.
+- Recursively apply the above steps to the sub-array of elements with smaller
+  values and separately to the sub-array of elements with greater values.
+  The base case of the recursion is arrays of size zero or one, which never need
+  to be sorted
+
+The above information is an extract from [[https://en.wikipedia.org/wiki/Quicksort][wikipedia]] and more details about the
+algorithm can be found there.
+
+* Pivot point
+
+Picking the correct pivot point is an important part of the algorithm and
+affects the speed of execution.
+
+Traditionally the pivot point was the first element in the array, but this
+leads to the poorest level of performance O(n^2) when sorting an already
+sorted list.
+
+To minimise this, alternatives have been suggested, including:-
+- random choice of pivot
+- middle index of array
+- median of first middle and last elements in array
+  - this gives a better estimate of a true pivot and avoids problems
+    with the list being in sorted or reverse sorted order.
+
+
+* Time, Space and Big O
+** TIme
+The array is accessed n times for each level of sort and as the list is
+split into two for each level of sort the stack grows by O(log n) - 2 x O(log n)
+but we ignore this for the purposes of Big O notation.
+This means the speed of the algorithm grown by O(n log n).
+
+** Space
+Space requirments grow in the same way that the stack grows as each recursive
+call to the stack requires a list of n elements.
+Therefore, the space requirement grown in O(log n).
+
+Optimisations can be made to the space requirements using carefully crafted
+tail calls - see the wikipedia article.
+
+* Issues
+
+- Many repeated elements in the array has an adverse effect on the speed.
+- As it is a divide and conquer algorithm, it can be parallelized. 

@@ -23,10 +23,17 @@ sets. These are detailed below
 
 * Problems
 
-There is a problem folder and there are additional folders underneath the 
+There is a problem folder and there are additional folders underneath the
 problems folder for different types of problem or different websites that
 host problems.
 
 The euler problems are from [[https://projecteuler.net/][Project Euler]].
 The rq problems are from the [[http://rubyquiz.com/index.html][Ruby Quiz]] site.
 The alg folder has problems surrounding common algorithms such as binary search.
+
+** Retrospective
+With all but the most simple of problems try to do a retrospective.
+Create a file in the problem directory called retrospective.org and
+detail any insights or interesting parts of the problem. Highlighting
+areas that were difficult or situations in which the language made
+something useful is also helpful.

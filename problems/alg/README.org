@@ -4,10 +4,10 @@ The topic of algorithms, data structures and data types is a great way
 to learn about the differences between languages and their similarities.
 
 This broad topic will be split up into the following subsections:
-- Abstract data types
-- Sort
-- Search
-- Graphs
+- [[file:01-adts/README.org][Abstract data types]]
+- [[file:02-sort/README.org][Sort]]
+- [[file:03-search/README.org][Search]]
+- [[file:04-graphs/README.org][Graphs]]
 
 * Learning Goals
 Each exercise will have a different focus and constraints depending on
@@ -19,7 +19,7 @@ However, a lot of learning will be gleaned by following a solution that
 the language encourages you to take and reflecting on this in the
 retrospective.
 
-* Language Constraints
+** Language Constraints
 Programming in certain languages, such as high level dynamic languages
 may not offer you enough low level control over your data types.
 Ruby and Python arrays grow and shrink automatically, for example, and

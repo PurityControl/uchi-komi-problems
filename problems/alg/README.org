@@ -1,0 +1,30 @@
+#+TITLE: Algorithms, Abstract data types and data structures
+
+The topic of algorithms, data structures and data types is a great way
+to learn about the differences between languages and their similarities.
+
+This broad topic will be split up into the following subsections:
+- Abstract data types
+- Sort
+- Search
+- Graphs
+
+* Learning Goals
+Each exercise will have a different focus and constraints depending on
+the language used.
+You should take the opportunity to try and develop your solution in
+code that is idiomatic for the language in question. By all means do
+an uchi komi that follows a different paradigm to the norm to experiment.
+However, a lot of learning will be gleaned by following a solution that
+the language encourages you to take and reflecting on this in the
+retrospective.
+
+* Language Constraints
+Programming in certain languages, such as high level dynamic languages
+may not offer you enough low level control over your data types.
+Ruby and Python arrays grow and shrink automatically, for example, and
+you cannot control this. When faced with such issues try to engineer the
+best solution possible. Discuss in the retrospective the issues you faced.
+Additionally, consider taking metric to demonstrate what effects the
+constraints have on your solutions. These can then be documented and
+discussed in the retrospective.

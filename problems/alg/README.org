@@ -25,6 +25,6 @@ may not offer you enough low level control over your data types.
 Ruby and Python arrays grow and shrink automatically, for example, and
 you cannot control this. When faced with such issues try to engineer the
 best solution possible. Discuss in the retrospective the issues you faced.
-Additionally, consider taking metric to demonstrate what effects the
+Additionally, consider taking metrics to demonstrate what effects the
 constraints have on your solutions. These can then be documented and
 discussed in the retrospective.

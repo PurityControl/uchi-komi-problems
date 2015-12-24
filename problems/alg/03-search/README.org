@@ -1,1 +1,3 @@
 #+TITLE: Search Algorithms
+
+- [[file:001-binary-search/README.org][Binary Search]]

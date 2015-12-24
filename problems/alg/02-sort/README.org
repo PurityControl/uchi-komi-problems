@@ -1,1 +1,5 @@
 #+TITLE: Sort Algorithms
+
+- [[file:001-selection-sort/README.org][Selection Sort]]
+- [[file:002-quick-sort/README.org][Quick Sort]]
+

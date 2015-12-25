@@ -8,6 +8,7 @@ This broad topic will be split up into the following subsections:
 - [[file:02-sort/README.org][Sort]]
 - [[file:03-search/README.org][Search]]
 - [[file:04-graphs/README.org][Graphs]]
+- [[file:05-math/README.org][Math]]
 
 * Learning Goals
 Each exercise will have a different focus and constraints depending on

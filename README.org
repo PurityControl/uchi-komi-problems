@@ -28,8 +28,27 @@ problems folder for different types of problem or different websites that
 host problems.
 
 The euler problems are from [[https://projecteuler.net/][Project Euler]].
+
 The rq problems are from the [[http://rubyquiz.com/index.html][Ruby Quiz]] site.
+
 The alg folder has problems surrounding common algorithms such as binary search.
+
+The kata folder is dedicated to useful problem spaces I have come
+across that would make good katas. The main criteria for these
+exercises are that they will be of sufficient length to be more than a
+trivial problem but short enough to be able to work on over a sitting.
+The idea of these exercises are for you to create the project
+infrastructure for your language properly and to follow the practices
+you want to become second natures such as tdd, and the red, green
+refactor cycles. These are opportunities to ensure your best practices
+become engrained so don't waste them. If it means taking your time
+painstakingly analysing your workflow until it starts to become
+engrained then make sure you do this. Further be prepared to do these
+exercises again and again, remember that the focus here is much more
+on following a best practice than trying to solve a particular
+problem.
+
+Checkout the [[file:problems/kata/README.org][index]] of the kata problems.
 
 ** Retrospective
 With all but the most simple of problems try to do a retrospective.

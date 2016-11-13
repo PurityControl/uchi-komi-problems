@@ -1,0 +1,7 @@
+#+TITLE: TODO Backend
+
+This kata is associated with the [[http://www.todobackend.com][Todo Backend]] Project.
+
+The site has a suite of [[http://www.todobackend.com/specs/index.html][tests]] that exercise your implementation.
+
+It requires you write a restful databased webservice for todo's.

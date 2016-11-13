@@ -45,7 +45,10 @@ become engrained so don't waste them. If it means taking your time
 painstakingly analysing your workflow until it starts to become
 engrained then make sure you do this. Further be prepared to do these
 exercises again and again, remember that the focus here is much more
-on following a best practice than trying to solve a particular problem.
+on following a best practice than trying to solve a particular
+problem.
+
+Checkout the [[file:problems/kata/README.org][index]] of the kata problems.
 
 ** Retrospective
 With all but the most simple of problems try to do a retrospective.
